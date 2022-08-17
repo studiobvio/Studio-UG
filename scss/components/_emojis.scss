@@ -1,0 +1,15 @@
+$emojis: (
+  "grinning-face": "\1F600",
+  "smiling-face-halo": "\1F607",
+  "grinning-face-horns": "\1F608",
+  "winking-face": "\1F609",
+  "hand-waving": "\1F44B",
+  "rocket": "\1F680",
+);
+
+@each $name, $chars in $emojis {
+  .em-#{$name}:before {
+    display: inline-block;
+    content: $chars;
+  }
+}

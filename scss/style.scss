@@ -1,0 +1,22 @@
+@use 'custom';
+
+//import the components
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+@use 'components/emojis';
+
+//Import the Sections
+
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/collaborators';
+@use 'sections/interests';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
+
